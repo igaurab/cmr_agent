@@ -1,0 +1,999 @@
+{
+    "feed": {
+      "updated": "2024-12-23T18:07:23.795Z",
+      "id": "https://cmr.earthdata.nasa.gov:443/search/granules.json?collection_concept_id=C2840815089-ORNL_CLOUD&token=eyJ0eXAiOiJKV1QiLCJvcmlnaW4iOiJFYXJ0aGRhdGEgTG9naW4iLCJzaWciOiJlZGxqd3RwdWJrZXlfb3BzIiwiYWxnIjoiUlMyNTYifQ.eyJ0eXBlIjoiVXNlciIsInVpZCI6ImlnYXVyYWIiLCJleHAiOjE3Mzk1MjYyMjAsImlhdCI6MTczNDM0MjIyMCwiaXNzIjoiaHR0cHM6Ly91cnMuZWFydGhkYXRhLm5hc2EuZ292IiwiaWRlbnRpdHlfcHJvdmlkZXIiOiJlZGxfb3BzIiwiYXNzdXJhbmNlX2xldmVsIjoyfQ.ugXMgnjxuI6LtbJ0ZqKj75TAbPU2IMPJax-t_reYLt-MllNjLpzgQr9ocYpPC6kPjoQTAceWvP0KpMGM4a-VunyEIaTmD8uSIw9UOvHK2ViirPP179VH3VhYXQddVBTzuP5oBBM2nNtG8DlC64Y6SWKUjbmX3Cc6Drgcqnx6ZmfOklyz0KcDD1SlZVS2ehGiw-qibYaVvy9dfIhc6DxdcYiQ1RDL_cNxQkbRHGbd01y7ULhf1uB8XkKCU_jKUtAB36tFIdnISlV8CrvGW6r3jMC0XynUawphnJg8xhEu5qVxhAqelXEDUBjeaD3kUGUU9LTV6iRSTxVl6npKKcXWWA",
+      "title": "ECHO granule metadata",
+      "entry": [
+        {
+          "boxes": [
+            "35 -100 50 -60"
+          ],
+          "time_start": "0850-01-01T00:00:00.000Z",
+          "updated": "2024-01-22T17:43:34.000Z",
+          "dataset_id": "PalEON: Terrestrial Ecosystem Model Drivers for the Northeastern U.S., 0850-2010",
+          "data_center": "ORNL_CLOUD",
+          "title": "NACP_PalEON_MIP.paleon_reg-env-dri_lulcc.nc4",
+          "coordinate_system": "CARTESIAN",
+          "day_night_flag": "BOTH",
+          "time_end": "2010-12-31T23:59:59.000Z",
+          "id": "G2841242645-ORNL_CLOUD",
+          "original_format": "ECHO10",
+          "granule_size": "20.934079",
+          "browse_flag": false,
+          "collection_concept_id": "C2840815089-ORNL_CLOUD",
+          "online_access_flag": true,
+          "links": [
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-env-dri_lulcc.nc4",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/protected/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_lulcc.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-env-dri_lulcc.nc4.sha256",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_lulcc.nc4.sha256"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/s3#",
+              "title": "This link provides direct download access via S3 to the granule",
+              "hreflang": "en-US",
+              "href": "s3://ornl-cumulus-prod-protected/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_lulcc.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "ORNL DAAC Data Set Documentation (USER'S GUIDE)",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data set Landing Page DOI URL (DATA SET LANDING PAGE)",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data Set Documentation (GENERAL DOCUMENTATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "api endpoint to retrieve temporary credentials valid for same-region direct s3 access (VIEW RELATED INFORMATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "title": "OPeNDAP request URL (GET DATA : OPENDAP DATA)",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/collections/C2840815089-ORNL_CLOUD/granules/NACP_PalEON_MIP.paleon_reg-env-dri_lulcc.nc4"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/daacdata/nacp/NACP_PalEON_MIP/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            }
+          ]
+        },
+        {
+          "boxes": [
+            "35 -100 50 -60"
+          ],
+          "time_start": "0850-01-01T00:00:00.000Z",
+          "updated": "2024-01-22T17:43:34.000Z",
+          "dataset_id": "PalEON: Terrestrial Ecosystem Model Drivers for the Northeastern U.S., 0850-2010",
+          "data_center": "ORNL_CLOUD",
+          "title": "NACP_PalEON_MIP.paleon_reg-env-dri_nitrogen.nc4",
+          "coordinate_system": "CARTESIAN",
+          "day_night_flag": "BOTH",
+          "time_end": "2010-12-31T23:59:59.000Z",
+          "id": "G2841242652-ORNL_CLOUD",
+          "original_format": "ECHO10",
+          "granule_size": "2.027176",
+          "browse_flag": false,
+          "collection_concept_id": "C2840815089-ORNL_CLOUD",
+          "online_access_flag": true,
+          "links": [
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-env-dri_nitrogen.nc4",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/protected/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_nitrogen.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-env-dri_nitrogen.nc4.sha256",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_nitrogen.nc4.sha256"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/s3#",
+              "title": "This link provides direct download access via S3 to the granule",
+              "hreflang": "en-US",
+              "href": "s3://ornl-cumulus-prod-protected/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_nitrogen.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "ORNL DAAC Data Set Documentation (USER'S GUIDE)",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data set Landing Page DOI URL (DATA SET LANDING PAGE)",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data Set Documentation (GENERAL DOCUMENTATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "api endpoint to retrieve temporary credentials valid for same-region direct s3 access (VIEW RELATED INFORMATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "title": "OPeNDAP request URL (GET DATA : OPENDAP DATA)",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/collections/C2840815089-ORNL_CLOUD/granules/NACP_PalEON_MIP.paleon_reg-env-dri_nitrogen.nc4"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/daacdata/nacp/NACP_PalEON_MIP/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            }
+          ]
+        },
+        {
+          "boxes": [
+            "35 -100 50 -60"
+          ],
+          "time_start": "0850-01-01T00:00:00.000Z",
+          "updated": "2024-01-22T17:43:34.000Z",
+          "dataset_id": "PalEON: Terrestrial Ecosystem Model Drivers for the Northeastern U.S., 0850-2010",
+          "data_center": "ORNL_CLOUD",
+          "title": "NACP_PalEON_MIP.paleon_reg-met-dri_psurf_0850-0899.nc4",
+          "coordinate_system": "CARTESIAN",
+          "day_night_flag": "BOTH",
+          "time_end": "0899-12-31T23:59:59.000Z",
+          "id": "G2841242657-ORNL_CLOUD",
+          "original_format": "ECHO10",
+          "granule_size": "305.919496",
+          "browse_flag": false,
+          "collection_concept_id": "C2840815089-ORNL_CLOUD",
+          "online_access_flag": true,
+          "links": [
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-met-dri_psurf_0850-0899.nc4",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/protected/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_psurf_0850-0899.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-met-dri_psurf_0850-0899.nc4.sha256",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_psurf_0850-0899.nc4.sha256"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/s3#",
+              "title": "This link provides direct download access via S3 to the granule",
+              "hreflang": "en-US",
+              "href": "s3://ornl-cumulus-prod-protected/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_psurf_0850-0899.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "ORNL DAAC Data Set Documentation (USER'S GUIDE)",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data set Landing Page DOI URL (DATA SET LANDING PAGE)",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data Set Documentation (GENERAL DOCUMENTATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "api endpoint to retrieve temporary credentials valid for same-region direct s3 access (VIEW RELATED INFORMATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "title": "OPeNDAP request URL (GET DATA : OPENDAP DATA)",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/collections/C2840815089-ORNL_CLOUD/granules/NACP_PalEON_MIP.paleon_reg-met-dri_psurf_0850-0899.nc4"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/daacdata/nacp/NACP_PalEON_MIP/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            }
+          ]
+        },
+        {
+          "boxes": [
+            "35 -100 50 -60"
+          ],
+          "time_start": "0850-01-01T00:00:00.000Z",
+          "updated": "2024-01-22T17:43:34.000Z",
+          "dataset_id": "PalEON: Terrestrial Ecosystem Model Drivers for the Northeastern U.S., 0850-2010",
+          "data_center": "ORNL_CLOUD",
+          "title": "NACP_PalEON_MIP.paleon_reg-met-dri_precipf_0850-0899.nc4",
+          "coordinate_system": "CARTESIAN",
+          "day_night_flag": "BOTH",
+          "time_end": "0899-12-31T23:59:59.000Z",
+          "id": "G2841242665-ORNL_CLOUD",
+          "original_format": "ECHO10",
+          "granule_size": "297.137466",
+          "browse_flag": false,
+          "collection_concept_id": "C2840815089-ORNL_CLOUD",
+          "online_access_flag": true,
+          "links": [
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-met-dri_precipf_0850-0899.nc4",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/protected/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_precipf_0850-0899.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-met-dri_precipf_0850-0899.nc4.sha256",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_precipf_0850-0899.nc4.sha256"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/s3#",
+              "title": "This link provides direct download access via S3 to the granule",
+              "hreflang": "en-US",
+              "href": "s3://ornl-cumulus-prod-protected/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_precipf_0850-0899.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "ORNL DAAC Data Set Documentation (USER'S GUIDE)",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data set Landing Page DOI URL (DATA SET LANDING PAGE)",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data Set Documentation (GENERAL DOCUMENTATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "api endpoint to retrieve temporary credentials valid for same-region direct s3 access (VIEW RELATED INFORMATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "title": "OPeNDAP request URL (GET DATA : OPENDAP DATA)",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/collections/C2840815089-ORNL_CLOUD/granules/NACP_PalEON_MIP.paleon_reg-met-dri_precipf_0850-0899.nc4"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/daacdata/nacp/NACP_PalEON_MIP/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            }
+          ]
+        },
+        {
+          "boxes": [
+            "35 -100 50 -60"
+          ],
+          "time_start": "0850-01-01T00:00:00.000Z",
+          "updated": "2024-01-22T17:43:34.000Z",
+          "dataset_id": "PalEON: Terrestrial Ecosystem Model Drivers for the Northeastern U.S., 0850-2010",
+          "data_center": "ORNL_CLOUD",
+          "title": "NACP_PalEON_MIP.paleon_reg-env-dri_domain.nc4",
+          "coordinate_system": "CARTESIAN",
+          "day_night_flag": "BOTH",
+          "time_end": "2010-12-31T23:59:59.000Z",
+          "id": "G2841242681-ORNL_CLOUD",
+          "original_format": "ECHO10",
+          "granule_size": "0.018832",
+          "browse_flag": false,
+          "collection_concept_id": "C2840815089-ORNL_CLOUD",
+          "online_access_flag": true,
+          "links": [
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-env-dri_domain.nc4",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/protected/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_domain.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-env-dri_domain.nc4.sha256",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_domain.nc4.sha256"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/s3#",
+              "title": "This link provides direct download access via S3 to the granule",
+              "hreflang": "en-US",
+              "href": "s3://ornl-cumulus-prod-protected/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_domain.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "ORNL DAAC Data Set Documentation (USER'S GUIDE)",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data set Landing Page DOI URL (DATA SET LANDING PAGE)",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data Set Documentation (GENERAL DOCUMENTATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "api endpoint to retrieve temporary credentials valid for same-region direct s3 access (VIEW RELATED INFORMATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "title": "OPeNDAP request URL (GET DATA : OPENDAP DATA)",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/collections/C2840815089-ORNL_CLOUD/granules/NACP_PalEON_MIP.paleon_reg-env-dri_domain.nc4"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/daacdata/nacp/NACP_PalEON_MIP/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            }
+          ]
+        },
+        {
+          "boxes": [
+            "35 -100 50 -60"
+          ],
+          "time_start": "0850-01-01T00:00:00.000Z",
+          "updated": "2024-01-22T17:43:34.000Z",
+          "dataset_id": "PalEON: Terrestrial Ecosystem Model Drivers for the Northeastern U.S., 0850-2010",
+          "data_center": "ORNL_CLOUD",
+          "title": "NACP_PalEON_MIP.paleon_reg-met-dri_lwdown_0850-0899.nc4",
+          "coordinate_system": "CARTESIAN",
+          "day_night_flag": "BOTH",
+          "time_end": "0899-12-31T23:59:59.000Z",
+          "id": "G2841242683-ORNL_CLOUD",
+          "original_format": "ECHO10",
+          "granule_size": "346.76041",
+          "browse_flag": false,
+          "collection_concept_id": "C2840815089-ORNL_CLOUD",
+          "online_access_flag": true,
+          "links": [
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-met-dri_lwdown_0850-0899.nc4",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/protected/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_lwdown_0850-0899.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-met-dri_lwdown_0850-0899.nc4.sha256",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_lwdown_0850-0899.nc4.sha256"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/s3#",
+              "title": "This link provides direct download access via S3 to the granule",
+              "hreflang": "en-US",
+              "href": "s3://ornl-cumulus-prod-protected/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_lwdown_0850-0899.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "ORNL DAAC Data Set Documentation (USER'S GUIDE)",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data set Landing Page DOI URL (DATA SET LANDING PAGE)",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data Set Documentation (GENERAL DOCUMENTATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "api endpoint to retrieve temporary credentials valid for same-region direct s3 access (VIEW RELATED INFORMATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "title": "OPeNDAP request URL (GET DATA : OPENDAP DATA)",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/collections/C2840815089-ORNL_CLOUD/granules/NACP_PalEON_MIP.paleon_reg-met-dri_lwdown_0850-0899.nc4"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/daacdata/nacp/NACP_PalEON_MIP/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            }
+          ]
+        },
+        {
+          "boxes": [
+            "35 -100 50 -60"
+          ],
+          "time_start": "0850-01-01T00:00:00.000Z",
+          "updated": "2024-01-22T17:43:34.000Z",
+          "dataset_id": "PalEON: Terrestrial Ecosystem Model Drivers for the Northeastern U.S., 0850-2010",
+          "data_center": "ORNL_CLOUD",
+          "title": "NACP_PalEON_MIP.paleon_reg-met-dri_tair_0850-0899.nc4",
+          "coordinate_system": "CARTESIAN",
+          "day_night_flag": "BOTH",
+          "time_end": "0899-12-31T23:59:59.000Z",
+          "id": "G2841242690-ORNL_CLOUD",
+          "original_format": "ECHO10",
+          "granule_size": "327.792568",
+          "browse_flag": false,
+          "collection_concept_id": "C2840815089-ORNL_CLOUD",
+          "online_access_flag": true,
+          "links": [
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-met-dri_tair_0850-0899.nc4",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/protected/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_tair_0850-0899.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-met-dri_tair_0850-0899.nc4.sha256",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_tair_0850-0899.nc4.sha256"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/s3#",
+              "title": "This link provides direct download access via S3 to the granule",
+              "hreflang": "en-US",
+              "href": "s3://ornl-cumulus-prod-protected/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_tair_0850-0899.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "ORNL DAAC Data Set Documentation (USER'S GUIDE)",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data set Landing Page DOI URL (DATA SET LANDING PAGE)",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data Set Documentation (GENERAL DOCUMENTATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "api endpoint to retrieve temporary credentials valid for same-region direct s3 access (VIEW RELATED INFORMATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "title": "OPeNDAP request URL (GET DATA : OPENDAP DATA)",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/collections/C2840815089-ORNL_CLOUD/granules/NACP_PalEON_MIP.paleon_reg-met-dri_tair_0850-0899.nc4"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/daacdata/nacp/NACP_PalEON_MIP/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            }
+          ]
+        },
+        {
+          "boxes": [
+            "35 -100 50 -60"
+          ],
+          "time_start": "0850-01-01T00:00:00.000Z",
+          "updated": "2024-01-22T17:43:34.000Z",
+          "dataset_id": "PalEON: Terrestrial Ecosystem Model Drivers for the Northeastern U.S., 0850-2010",
+          "data_center": "ORNL_CLOUD",
+          "title": "NACP_PalEON_MIP.paleon_reg-env-dri_biome_pft.nc4",
+          "coordinate_system": "CARTESIAN",
+          "day_night_flag": "BOTH",
+          "time_end": "2010-12-31T23:59:59.000Z",
+          "id": "G2841242697-ORNL_CLOUD",
+          "original_format": "ECHO10",
+          "granule_size": "0.079339",
+          "browse_flag": false,
+          "collection_concept_id": "C2840815089-ORNL_CLOUD",
+          "online_access_flag": true,
+          "links": [
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-env-dri_biome_pft.nc4",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/protected/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_biome_pft.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-env-dri_biome_pft.nc4.sha256",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_biome_pft.nc4.sha256"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/s3#",
+              "title": "This link provides direct download access via S3 to the granule",
+              "hreflang": "en-US",
+              "href": "s3://ornl-cumulus-prod-protected/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_biome_pft.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "ORNL DAAC Data Set Documentation (USER'S GUIDE)",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data set Landing Page DOI URL (DATA SET LANDING PAGE)",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data Set Documentation (GENERAL DOCUMENTATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "api endpoint to retrieve temporary credentials valid for same-region direct s3 access (VIEW RELATED INFORMATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "title": "OPeNDAP request URL (GET DATA : OPENDAP DATA)",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/collections/C2840815089-ORNL_CLOUD/granules/NACP_PalEON_MIP.paleon_reg-env-dri_biome_pft.nc4"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/daacdata/nacp/NACP_PalEON_MIP/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            }
+          ]
+        },
+        {
+          "boxes": [
+            "35 -100 50 -60"
+          ],
+          "time_start": "0850-01-01T00:00:00.000Z",
+          "updated": "2024-01-22T17:43:34.000Z",
+          "dataset_id": "PalEON: Terrestrial Ecosystem Model Drivers for the Northeastern U.S., 0850-2010",
+          "data_center": "ORNL_CLOUD",
+          "title": "NACP_PalEON_MIP.paleon_reg-env-dri_co2_annual.nc4",
+          "coordinate_system": "CARTESIAN",
+          "day_night_flag": "BOTH",
+          "time_end": "2010-12-31T23:59:59.000Z",
+          "id": "G2841242701-ORNL_CLOUD",
+          "original_format": "ECHO10",
+          "granule_size": "0.024262",
+          "browse_flag": false,
+          "collection_concept_id": "C2840815089-ORNL_CLOUD",
+          "online_access_flag": true,
+          "links": [
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-env-dri_co2_annual.nc4",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/protected/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_co2_annual.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-env-dri_co2_annual.nc4.sha256",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_co2_annual.nc4.sha256"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/s3#",
+              "title": "This link provides direct download access via S3 to the granule",
+              "hreflang": "en-US",
+              "href": "s3://ornl-cumulus-prod-protected/nacp/NACP_PalEON_MIP/data/paleon_reg-env-dri_co2_annual.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "ORNL DAAC Data Set Documentation (USER'S GUIDE)",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data set Landing Page DOI URL (DATA SET LANDING PAGE)",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data Set Documentation (GENERAL DOCUMENTATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "api endpoint to retrieve temporary credentials valid for same-region direct s3 access (VIEW RELATED INFORMATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "title": "OPeNDAP request URL (GET DATA : OPENDAP DATA)",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/collections/C2840815089-ORNL_CLOUD/granules/NACP_PalEON_MIP.paleon_reg-env-dri_co2_annual.nc4"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/daacdata/nacp/NACP_PalEON_MIP/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            }
+          ]
+        },
+        {
+          "boxes": [
+            "35 -100 50 -60"
+          ],
+          "time_start": "0850-01-01T00:00:00.000Z",
+          "updated": "2024-01-22T17:43:34.000Z",
+          "dataset_id": "PalEON: Terrestrial Ecosystem Model Drivers for the Northeastern U.S., 0850-2010",
+          "data_center": "ORNL_CLOUD",
+          "title": "NACP_PalEON_MIP.paleon_reg-met-dri_qair_0850-0899.nc4",
+          "coordinate_system": "CARTESIAN",
+          "day_night_flag": "BOTH",
+          "time_end": "0899-12-31T23:59:59.000Z",
+          "id": "G2841242707-ORNL_CLOUD",
+          "original_format": "ECHO10",
+          "granule_size": "373.80786",
+          "browse_flag": false,
+          "collection_concept_id": "C2840815089-ORNL_CLOUD",
+          "online_access_flag": true,
+          "links": [
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-met-dri_qair_0850-0899.nc4",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/protected/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_qair_0850-0899.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "title": "Download paleon_reg-met-dri_qair_0850-0899.nc4.sha256",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_qair_0850-0899.nc4.sha256"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/s3#",
+              "title": "This link provides direct download access via S3 to the granule",
+              "hreflang": "en-US",
+              "href": "s3://ornl-cumulus-prod-protected/nacp/NACP_PalEON_MIP/data/paleon_reg-met-dri_qair_0850-0899.nc4"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "ORNL DAAC Data Set Documentation (USER'S GUIDE)",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data set Landing Page DOI URL (DATA SET LANDING PAGE)",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "Data Set Documentation (GENERAL DOCUMENTATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "title": "api endpoint to retrieve temporary credentials valid for same-region direct s3 access (VIEW RELATED INFORMATION)",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials"
+            },
+            {
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "title": "OPeNDAP request URL (GET DATA : OPENDAP DATA)",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/collections/C2840815089-ORNL_CLOUD/granules/NACP_PalEON_MIP.paleon_reg-met-dri_qair_0850-0899.nc4"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/daacdata/nacp/NACP_PalEON_MIP/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://daac.ornl.gov/NACP/guides/NACP_PalEON_MIP.html"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+              "hreflang": "en-US",
+              "href": "https://doi.org/10.3334/ORNLDAAC/1779"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+              "hreflang": "en-US",
+              "href": "https://opendap.earthdata.nasa.gov/"
+            },
+            {
+              "inherited": true,
+              "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+              "hreflang": "en-US",
+              "href": "https://data.ornldaac.earthdata.nasa.gov/public/nacp/NACP_PalEON_MIP/comp/NACP_PalEON_MIP.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  }
