@@ -53,7 +53,7 @@ def search_collections(
             "organizations": col_entry.organizations,
         }
         response["collections"].append(col)
-        return response
+    return response
 
 
 @tool
