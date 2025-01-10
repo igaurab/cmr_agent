@@ -34,7 +34,7 @@ def search_collections(
         - Longitude: -180 to 180
         - Latitude: -90 to 90
     """
-    logger.info(f"LLM Called | keyword: {keyword}, temporal: {temporal}, spatial: {spatial}")
+    logger.info(f"Tool [search_collections] called | keyword: {keyword}, temporal: {temporal}, spatial: {spatial}")
     query_param = CMRQueryParam(
         keyword=keyword,
         spatial=spatial.split(",") if spatial else None,
@@ -59,9 +59,12 @@ def search_collections(
 @tool
 def search_granules(collection_id: str):
     """
-    Search for file level details. This needs a collection_id
+    Fetches file-level details (granules) for a given collection
+
+     Args:
+        collection_id (str): The unique identifier for the collection whose granules are to be retrieved.
     """
-    logger.info(f"LLM Called | collection_id: {collection_id}")
+    logger.info(f"Tool [search_granules] called | collection_id: {collection_id}")
     result = cmr_api_hook.fetch_granules(collection_id=collection_id)
     response = {}
     response["granules"] = []

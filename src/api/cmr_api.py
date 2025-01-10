@@ -67,16 +67,16 @@ class CMRAPI:
 
     def fetch_collection(self, query_params: CMRQueryParam = None) -> CollectionResponse:
         query_params = query_params.to_query_params() if query_params else None
-        logger.debug(f"Query Params: {query_params}")
+        logger.debug(f"query_params: {query_params}")
         response = self.session.get(self._COLLECTION_URL, params=query_params)
-        logger.debug(f"Made request to: {response.url}")
+        logger.debug(f"request_url: {response.url}")
         response_data: CMRResponse = self._handle_response(response)
         return CollectionResponse(**response_data.data.get("feed"))
 
     def fetch_granules(self, collection_id: str) -> GranulesResponse:
         params = {"collection_concept_id": collection_id}
         response = self.session.get(self._GRANULES_URL, params=params)
-        logger.debug(f"Made request to: {response.url}")
+        logger.debug(f"request_url: {response.url}")
         response_data: CMRResponse = self._handle_response(response)
         return GranulesResponse(**response_data.data.get("feed"))
 
