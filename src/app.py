@@ -5,7 +5,6 @@ from typing import List, Optional
 
 import streamlit as st
 from langchain_openai import ChatOpenAI
-from loguru import logger
 
 from agents.cmr_agent import CMRAgent
 from agents.events import MessageEvent, ToolEvent
@@ -21,30 +20,18 @@ class Message:
 
 def initialize_session_state():
     """Initializes streamlit session state variables"""
-    logger.info("initializing session")
-
     st.session_state.setdefault("messages", [])
     st.session_state.setdefault("current_tools", {})
 
     if "cmr_agent" not in st.session_state:
         config = {"configurable": {"thread_id": "123"}}
-        logger.info("initializing session")
         model = ChatOpenAI(model=settings.OPENAI_MODEL, streaming=True)
         st.session_state.cmr_agent = CMRAgent(config=config, model=model)
-
-    logger.info("initializing session completed")
 
 
 def display_message(message: Message):
     with st.chat_message(message.role):
         st.markdown(message.content)
-        if message.tools:
-            with st.expander("🔍Debug Info", expanded=False):
-                for tool in message.tools:
-                    st.write(f"Tool {tool.name}")
-                    st.write(f"Input: {tool.data['input']}")
-                    st.write("Output:")
-                    st.write(tool.output_data)
 
 
 def display_chat_history():
