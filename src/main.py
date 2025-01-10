@@ -25,9 +25,10 @@ async def main():
     agent_handler = CMRAgent(config=config, model=model)
     while True:
         user_input = input("User: ")
-        logger.info("Assistant: ", end="")
+        print("Assistant: ", end="")
         async for event in agent_handler.query(user_input):
             await handle_events(event)
+        print()
 
 
 if __name__ == "__main__":

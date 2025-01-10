@@ -1,5 +1,6 @@
 APP_DIR=src
 APP_FILE=app.py
+MAIN_FILE=main.py
 VENV_DIR=venv
 PYTHON=$(VENV_DIR)/bin/python
 PIP=$(VENV_DIR)/bin/pip
@@ -23,6 +24,11 @@ install: $(VENV_DIR)
 .PHONY: run
 run: $(VENV_DIR)
 	cd $(APP_DIR) && ../$(STREAMLIT) run $(APP_FILE)
+
+.PHONY: cli
+cli: $(VENV_DIR)
+	cd $(APP_DIR) && ../$(PYTHON) $(MAIN_FILE)
+
 
 .PHONY: clean
 clean:
