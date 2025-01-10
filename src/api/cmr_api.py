@@ -54,6 +54,7 @@ class CMRAPI:
             response.raise_for_status()
             return CMRResponse(data=response.json(), status_code=response.status_code, headers=dict(response.headers))
         except requests.HTTPError as e:
+            logger.error(f"Error from crm_api: {e} | Status code: {e.status_code}")
             if e.response.status_code == 401:
                 raise APIError(ErrorCode.AUTH_ERROR, "Invalid authentication token")
             elif e.response.status_code == 429:
