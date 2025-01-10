@@ -27,5 +27,8 @@ Note: Create an `.env` file from the `.env.sample` file and update your OPENAI c
 * Search through collections
     * Supported query params: temporal, spatial and keyword based search
 * Search through granules using collection id
+* Supports multi-conversations: Ask followup on questions or for granules for a particular collection
 * CLI and web-based (Streamlit) interface options.
 * View debug logs in Streamlit application
+
+![CMRAgent Demo](assets/demo.gif)
