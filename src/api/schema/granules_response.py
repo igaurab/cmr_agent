@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import List, Optional
 
-from pydantic import BaseModel, Field, HttpUrl
+from pydantic import BaseModel, Field
 
 
 class Link(BaseModel):
@@ -33,6 +33,6 @@ class GranuleEntry(BaseModel):
 
 class GranulesResponse(BaseModel):
     updated: datetime
-    id: HttpUrl
+    id: str
     title: str
     entry: List[GranuleEntry]
