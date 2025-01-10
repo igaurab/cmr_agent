@@ -19,6 +19,7 @@ If you have make installed:
 3. `make cli` : Run the cli interface
 4. `make clean` : Removes virtualenv
 
+Note: Create an `.env` file from the `.env.sample` file and update your OPENAI credentials before running the app
 
 ### Features
 
