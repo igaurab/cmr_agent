@@ -4,6 +4,24 @@ from langchain_core.tools import tool
 from loguru import logger
 
 from api import CMRQueryParam, cmr_api_hook
+from api.opencage_api import extract_bounding_box, opencage_geocoder_api_hook
+
+
+@tool
+def geocode_location(address: str) -> str:
+    """
+    This takes a location string and return its spatial boundaries as a bounding box.
+    Use this tool to get the spatial data needed for `search_collections` tool when user query includes an address or location
+
+    Args:
+        location (str): A free-form address or location name to be geocoded
+
+    Returns:
+        Optional[str]: A bounding box string if geocoding is successful; otherwise, None.
+    """
+    result = opencage_geocoder_api_hook(address)
+    bounding_box = extract_bounding_box(result)
+    return bounding_box
 
 
 @tool
@@ -37,7 +55,7 @@ def search_collections(
     logger.info(f"Tool [search_collections] called | keyword: {keyword}, temporal: {temporal}, spatial: {spatial}")
     query_param = CMRQueryParam(
         keyword=keyword,
-        spatial=spatial.split(",") if spatial else None,
+        spatial=spatial,
         temporal=temporal.split(",") if temporal else None,
     )
     result = cmr_api_hook.fetch_collection(query_params=query_param)
@@ -51,6 +69,7 @@ def search_collections(
             "time_start": col_entry.time_start,
             "time_end": col_entry.time_end,
             "organizations": col_entry.organizations,
+            "bbox": col_entry.boxes,
         }
         response["collections"].append(col)
     return response
