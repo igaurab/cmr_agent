@@ -7,11 +7,9 @@ from api import CMRQueryParam, cmr_api_hook
 from api.opencage_api import extract_bounding_box, opencage_geocoder_api_hook
 
 
-@tool
 def geocode_location(address: str) -> str:
     """
     This takes a location string and return its spatial boundaries as a bounding box.
-    Use this tool to get the spatial data needed for `search_collections` tool when user query includes an address or location
 
     Args:
         location (str): A free-form address or location name to be geocoded
@@ -21,6 +19,7 @@ def geocode_location(address: str) -> str:
     """
     result = opencage_geocoder_api_hook(address)
     bounding_box = extract_bounding_box(result)
+    logger.info(f"Tool [geocode_location] called | address: {address} | bounding box: {bounding_box}")
     return bounding_box
 
 
@@ -28,7 +27,7 @@ def geocode_location(address: str) -> str:
 def search_collections(
     keyword: str | None = None,
     temporal: str | None = None,
-    spatial: str | None = None,
+    address: str | None = None,
 ) -> Dict:
     """
     Search collections based on keyword, temporal, and spatial parameters.
@@ -44,20 +43,20 @@ def search_collections(
         Format: "YYYY-MM-DDThh:mm:ssZ,YYYY-MM-DDThh:mm:ssZ"
         Example: "2020-01-01T00:00:00Z,2020-12-31T23:59:59Z"
 
-    spatial : str | None, optional
-        Geographic bounds specified as bounding box coordinates
-        Format: "min_lon,min_lat,max_lon,max_lat"
-        Example: "-180,0,180,90"
-        Constraints:
-        - Longitude: -180 to 180
-        - Latitude: -90 to 90
+    address : str | None, optional
+        Address or location mentioned in the user query
     """
-    logger.info(f"Tool [search_collections] called | keyword: {keyword}, temporal: {temporal}, spatial: {spatial}")
+    bounding_box = geocode_location(address) if address else ""
+    logger.info(
+        f"Tool [search_collections] called | keyword: {keyword}, temporal: {temporal}, spatial: {address} [{bounding_box}]"
+    )
+
     query_param = CMRQueryParam(
         keyword=keyword,
-        spatial=spatial,
+        spatial=bounding_box,
         temporal=temporal.split(",") if temporal else None,
     )
+
     result = cmr_api_hook.fetch_collection(query_params=query_param)
     response = {}
     response["collections"] = []

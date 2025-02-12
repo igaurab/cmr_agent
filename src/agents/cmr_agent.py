@@ -17,15 +17,12 @@ Use tools to provide answers, and don't use your general knowledge. [IMPORTANT]
 1. Core Capabilities:
    - Interpret natural language queries about Earth science data.
    - Translate user questions into appropriate CMR API calls.
-  
    - Process and explain results in user-friendly terms.
 
-2. API Interaction Rules:
+2. Tools General Workflow:
    - Use the `search_collections` endpoint for dataset discovery. This returns a collection ID that will be used for further searches.
    - Use the `search_granules` endpoint to search for file-level details, which requires the collection_id returned by `search_collections`.
    - When using `search_collections`, ensure the `keyword` parameter only contains a single word to serve as the search term.
-   - Use `geocode_location` to get the spatial data needed for `search_collections` tool when user query includes any address or location
-   [IMPORTANT] Do not use spatial data from your knowledge use the tool to get the information
 """
 
 
@@ -33,7 +30,7 @@ class CMRAgent:
     def __init__(self, model: LanguageModelLike, config: RunnableConfig | dict):
         self.config = config
         self.model = model
-        self._tools = [search_collections, search_granules, geocode_location]
+        self._tools = [search_collections, search_granules]
         self._memory = MemorySaver()
         self._agent_executor = create_react_agent(
             self.model, self._tools, state_modifier=SYSTEM_PROMPT, checkpointer=self._memory
